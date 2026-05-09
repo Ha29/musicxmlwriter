@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js"></script>
+</head>
+<body>
+
+<input type="file" id="file" accept=".mxl,.musicxml,.xml" />
+
+<div id="score"></div>
+
+<script>
+const osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("score");
+
+document.getElementById("file").addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+
+  await osmd.load(file);
+  osmd.render();
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MusicXML Viewer</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        #score {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Upload MusicXML File</h2>
+
+    <input type="file" id="fileInput" accept=".musicxml,.xml,.mxl">
+
+    <div id="score"></div>
+
+    <script>
+        const osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("score");
+
+        document.getElementById("fileInput").addEventListener("change", async (event) => {
+            const file = event.target.files[0];
+
+            if (!file) return;
+
+            const text = await file.text();
+
+            await osmd.load(text);
+            osmd.render();
+        });
+    </script>
+
+</body>
+</html>
