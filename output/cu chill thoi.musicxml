@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P4fcf8d295b1f22052c8c27bfa2e84e55">
+    <score-part id="P20791b159b59ba9aa556cf11f4baf573">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I18c66746727265adcb7d927bcf3c76a2">
+      <score-instrument id="Id234d28c707ade37a4784c991aa1b78f">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I18c66746727265adcb7d927bcf3c76a2">
+      <midi-instrument id="Id234d28c707ade37a4784c991aa1b78f">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="P4fcf8d295b1f22052c8c27bfa2e84e55">
+  <part id="P20791b159b59ba9aa556cf11f4baf573">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -99,7 +99,6 @@
     </measure>
     
     <measure implicit="no" number="5">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -156,7 +155,6 @@
     </measure>
     
     <measure implicit="no" number="9">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -187,7 +185,6 @@
     </measure>
     
     <measure implicit="no" number="11">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -214,7 +211,6 @@
     </measure>
     
     <measure implicit="no" number="13">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -245,7 +241,6 @@
     </measure>
     
     <measure implicit="no" number="15">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -266,7 +261,6 @@
     </measure>
     
     <measure implicit="no" number="17">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -319,7 +313,6 @@
     </measure>
     
     <measure implicit="no" number="21">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -372,7 +365,6 @@
     </measure>
     
     <measure implicit="no" number="25">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -425,7 +417,6 @@
     </measure>
     
     <measure implicit="no" number="29">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -478,7 +469,6 @@
     </measure>
     
     <measure implicit="no" number="33">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -505,7 +495,6 @@
     </measure>
     
     <measure implicit="no" number="35">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -532,7 +521,6 @@
     </measure>
     
     <measure implicit="no" number="37">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -559,7 +547,6 @@
     </measure>
     
     <measure implicit="no" number="39">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -699,7 +686,6 @@
     </measure>
     
     <measure implicit="no" number="45">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -818,7 +804,6 @@
     </measure>
     
     <measure implicit="no" number="49">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -964,7 +949,6 @@
     </measure>
     
     <measure implicit="no" number="55">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -991,7 +975,6 @@
     </measure>
     
     <measure implicit="no" number="57">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>

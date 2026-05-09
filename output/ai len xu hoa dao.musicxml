@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P3540fd556bc61023682d760d1d651d0c">
+    <score-part id="Pcb0cb88fb1f498f03aa43b450fb508ec">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="Ifff55c734e19914694d3ce3e7afcc8ec">
+      <score-instrument id="Ib816431b8fc0268674c6538be2173211">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ifff55c734e19914694d3ce3e7afcc8ec">
+      <midi-instrument id="Ib816431b8fc0268674c6538be2173211">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="P3540fd556bc61023682d760d1d651d0c">
+  <part id="Pcb0cb88fb1f498f03aa43b450fb508ec">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -97,7 +97,6 @@
     </measure>
     
     <measure implicit="no" number="5">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>B</root-step>
@@ -206,7 +205,6 @@
     </measure>
     
     <measure implicit="no" number="10">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -326,7 +324,6 @@
     </measure>
     
     <measure implicit="no" number="17">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -381,7 +378,6 @@
     </measure>
     
     <measure implicit="no" number="19">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -514,7 +510,6 @@
     </measure>
     
     <measure implicit="no" number="26">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -634,7 +629,6 @@
     </measure>
     
     <measure implicit="no" number="33">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -689,7 +683,6 @@
     </measure>
     
     <measure implicit="no" number="35">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -825,7 +818,6 @@
     </measure>
     
     <measure implicit="no" number="42">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -959,7 +951,6 @@
     </measure>
     
     <measure implicit="no" number="49">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -983,8 +974,8 @@
       </harmony>
       <note>
         <rest />
-        <duration>10080</duration>
-        <type>quarter</type>
+        <duration>20160</duration>
+        <type>half</type>
       </note>
       <harmony>
         <root>
@@ -1000,9 +991,14 @@
       </harmony>
       <note>
         <rest />
-        <duration>10080</duration>
+        <duration>6720</duration>
         <type>quarter</type>
-      </note>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>quarter</normal-type>
+        </time-modification>
+        <notations><tuplet number="1" type="start" bracket="yes" /></notations></note>
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -1014,12 +1010,18 @@
           <bass-step>F</bass-step>
           <bass-alter>1</bass-alter>
         </bass>
+        <offset sound="yes">0</offset>
       </harmony>
       <note>
         <rest />
-        <duration>10080</duration>
+        <duration>6720</duration>
         <type>quarter</type>
-      </note>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>quarter</normal-type>
+        </time-modification>
+        </note>
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -1031,12 +1033,18 @@
           <bass-step>F</bass-step>
           <bass-alter>1</bass-alter>
         </bass>
+        <offset sound="yes">0</offset>
       </harmony>
       <note>
         <rest />
-        <duration>10080</duration>
+        <duration>6720</duration>
         <type>quarter</type>
-      </note>
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+          <normal-type>quarter</normal-type>
+        </time-modification>
+        <notations><tuplet number="1" type="stop" /></notations></note>
     </measure>
     
     <measure implicit="no" number="51">
@@ -1049,12 +1057,12 @@
       </harmony>
       <note>
         <rest />
-        <duration>13440</duration>
-        <type>half</type>
+        <duration>6720</duration>
+        <type>quarter</type>
         <time-modification>
           <actual-notes>3</actual-notes>
           <normal-notes>2</normal-notes>
-          <normal-type>half</normal-type>
+          <normal-type>quarter</normal-type>
         </time-modification>
         <notations><tuplet number="1" type="start" bracket="yes" /></notations></note>
       <harmony>
@@ -1072,12 +1080,12 @@
       </harmony>
       <note>
         <rest />
-        <duration>13440</duration>
-        <type>half</type>
+        <duration>6720</duration>
+        <type>quarter</type>
         <time-modification>
           <actual-notes>3</actual-notes>
           <normal-notes>2</normal-notes>
-          <normal-type>half</normal-type>
+          <normal-type>quarter</normal-type>
         </time-modification>
         </note>
       <harmony>
@@ -1090,14 +1098,26 @@
       </harmony>
       <note>
         <rest />
-        <duration>13440</duration>
-        <type>half</type>
+        <duration>6720</duration>
+        <type>quarter</type>
         <time-modification>
           <actual-notes>3</actual-notes>
           <normal-notes>2</normal-notes>
-          <normal-type>half</normal-type>
+          <normal-type>quarter</normal-type>
         </time-modification>
         <notations><tuplet number="1" type="stop" /></notations></note>
+      <harmony>
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <type>half</type>
+      </note>
     </measure>
   </part>
 </score-partwise>

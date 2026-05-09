@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P012a1d6040826c6c98aa17a80e428c85">
+    <score-part id="P87501f12d2dac93fe5bac1d8f69024dc">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I7c0b3b14360256e7edb3659fb329d31d">
+      <score-instrument id="Ia3ac805b3d899c456619a0636e61216e">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I7c0b3b14360256e7edb3659fb329d31d">
+      <midi-instrument id="Ia3ac805b3d899c456619a0636e61216e">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="P012a1d6040826c6c98aa17a80e428c85">
+  <part id="P87501f12d2dac93fe5bac1d8f69024dc">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -143,7 +143,6 @@
     </measure>
     
     <measure implicit="no" number="5">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -208,7 +207,6 @@
     </measure>
     
     <measure implicit="no" number="9">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>F</root-step>
@@ -286,7 +284,6 @@
     </measure>
     
     <measure implicit="no" number="13">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -344,7 +341,6 @@
     </measure>
     
     <measure implicit="no" number="17">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -421,7 +417,6 @@
     </measure>
     
     <measure implicit="no" number="21">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -466,7 +461,6 @@
     </measure>
     
     <measure implicit="no" number="24">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -517,7 +511,6 @@
     </measure>
     
     <measure implicit="no" number="26">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -544,7 +537,6 @@
     </measure>
     
     <measure implicit="no" number="28">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -575,7 +567,6 @@
     </measure>
     
     <measure implicit="no" number="30">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>B</root-step>
@@ -607,7 +598,6 @@
     </measure>
     
     <measure implicit="no" number="32">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -658,7 +648,6 @@
     </measure>
     
     <measure implicit="no" number="34">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -697,7 +686,6 @@
     </measure>
     
     <measure implicit="no" number="36">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -765,7 +753,6 @@
     </measure>
     
     <measure implicit="no" number="39">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -830,7 +817,6 @@
     </measure>
     
     <measure implicit="no" number="43">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>F</root-step>
@@ -908,7 +894,6 @@
     </measure>
     
     <measure implicit="no" number="47">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -966,7 +951,6 @@
     </measure>
     
     <measure implicit="no" number="51">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -1005,7 +989,6 @@
     </measure>
     
     <measure implicit="no" number="53">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -1044,7 +1027,6 @@
     </measure>
     
     <measure implicit="no" number="55">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -1089,7 +1071,6 @@
     </measure>
     
     <measure implicit="no" number="58">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -1140,7 +1121,6 @@
     </measure>
     
     <measure implicit="no" number="60">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -1167,7 +1147,6 @@
     </measure>
     
     <measure implicit="no" number="62">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -1230,7 +1209,6 @@
     </measure>
     
     <measure implicit="no" number="66">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -1281,7 +1259,6 @@
     </measure>
     
     <measure implicit="no" number="68">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -1320,7 +1297,6 @@
     </measure>
     
     <measure implicit="no" number="70">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -1388,7 +1364,6 @@
     </measure>
     
     <measure implicit="no" number="73">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -1453,7 +1428,6 @@
     </measure>
     
     <measure implicit="no" number="77">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>F</root-step>
@@ -1531,7 +1505,6 @@
     </measure>
     
     <measure implicit="no" number="81">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -1589,7 +1562,6 @@
     </measure>
     
     <measure implicit="no" number="85">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -1628,7 +1600,6 @@
     </measure>
     
     <measure implicit="no" number="87">
-      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>A</root-step>

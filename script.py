@@ -286,8 +286,12 @@ def build_score(text, filename, transpose=0):
 
     measure_number = 1
     last_harmony: str | None = None
+    # New system after a blank line (or at start of chart); consecutive lines stay on one system.
+    new_system_next = True
     for line_index, line in enumerate(text.splitlines(), start=1):
         if "|" not in line:
+            if not line.strip():
+                new_system_next = True
             continue
         groups = parse_line(line)
         for group_index, tokens in enumerate(groups):
@@ -299,11 +303,9 @@ def build_score(text, filename, transpose=0):
                     f"{filename}: line {line_index}, group {group_index}, tokens={tokens!r}"
                 ) from e
             m.number = measure_number
-
-            # Force a new system at the start of each line
-            if group_index == 0:
+            if group_index == 0 and new_system_next:
                 m.insert(0, layout.SystemLayout(isNew=True))
-
+                new_system_next = False
             part.append(m)
             measure_number += 1
 
