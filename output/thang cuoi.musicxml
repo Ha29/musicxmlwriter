@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pd972ce728e1acd96f62b0e533a328996">
+    <score-part id="Peb84d943e9744e7aa3e1ff29a4a3923b">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="If0b00ed38224914bcc07c1ef21bcf883">
+      <score-instrument id="Ib48180b20bf9ae770b0287a44e45b5af">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="If0b00ed38224914bcc07c1ef21bcf883">
+      <midi-instrument id="Ib48180b20bf9ae770b0287a44e45b5af">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="Pd972ce728e1acd96f62b0e533a328996">
+  <part id="Peb84d943e9744e7aa3e1ff29a4a3923b">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -43,6 +43,20 @@
           <beat-type>4</beat-type>
         </time>
       </attributes>
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">A | Verse:</rehearsal>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="120" />
+      </direction>
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -394,6 +408,11 @@
     
     <measure implicit="no" number="13">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">B | Intro:</rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -523,6 +542,11 @@
     
     <measure implicit="no" number="21">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">C | Chorus: </rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -588,6 +612,11 @@
     
     <measure implicit="no" number="25">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">D | Verse:</rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>C</root-step>

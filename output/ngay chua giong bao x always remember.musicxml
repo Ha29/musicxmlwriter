@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pcb44c6fb9b1c4b401b82167112bac079">
+    <score-part id="Pc8f74322ffde6153acc2a04811023488">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="Ifd96ac8a4407ad0744b3a90634f974c4">
+      <score-instrument id="I9c7fed9e09edcaae5ef373cc502f88e2">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="Ifd96ac8a4407ad0744b3a90634f974c4">
+      <midi-instrument id="I9c7fed9e09edcaae5ef373cc502f88e2">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="Pcb44c6fb9b1c4b401b82167112bac079">
+  <part id="Pc8f74322ffde6153acc2a04811023488">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -43,6 +43,20 @@
           <beat-type>4</beat-type>
         </time>
       </attributes>
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">A | Intro: </rehearsal>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="120" />
+      </direction>
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -57,6 +71,11 @@
     
     <measure implicit="no" number="2">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">B | Viet Verse 1: </rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -903,6 +922,11 @@
     
     <measure implicit="no" number="55">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">C | Viet Verse:</rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>A</root-step>

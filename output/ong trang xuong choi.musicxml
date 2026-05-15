@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P806cc07e6b4f1305dca0f90d90f3c7fa">
+    <score-part id="P15060201ee71e08d7d5d0a3e69cdb974">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I8bfb2ff048cdc0da90f2d7fb367efc86">
+      <score-instrument id="Ie2c61f2a18f3e174bb73e07761f28b61">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I8bfb2ff048cdc0da90f2d7fb367efc86">
+      <midi-instrument id="Ie2c61f2a18f3e174bb73e07761f28b61">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="P806cc07e6b4f1305dca0f90d90f3c7fa">
+  <part id="P15060201ee71e08d7d5d0a3e69cdb974">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -43,6 +43,15 @@
           <beat-type>4</beat-type>
         </time>
       </attributes>
+      <direction>
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="120" />
+      </direction>
       <harmony>
         <root>
           <root-step>C</root-step>

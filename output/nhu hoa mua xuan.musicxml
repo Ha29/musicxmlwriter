@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P5d7a5a59021698c8a8e62af3ee90a1c3">
+    <score-part id="P13ea4c865717962590fb410c4bd751e7">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I2bedabc5d854bbe6f37dcbd880d71ddb">
+      <score-instrument id="I91dcda1dee930faba2f764eb70cc2681">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I2bedabc5d854bbe6f37dcbd880d71ddb">
+      <midi-instrument id="I91dcda1dee930faba2f764eb70cc2681">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="P5d7a5a59021698c8a8e62af3ee90a1c3">
+  <part id="P13ea4c865717962590fb410c4bd751e7">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -43,6 +43,20 @@
           <beat-type>4</beat-type>
         </time>
       </attributes>
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">A | Intro : </rehearsal>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="120" />
+      </direction>
       <harmony>
         <root>
           <root-step>B</root-step>
@@ -511,6 +525,11 @@
     
     <measure implicit="no" number="33">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">B | Chorus: </rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -814,6 +833,11 @@
     
     <measure implicit="no" number="53">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">C | Phụng Khánh linh:</rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>E</root-step>

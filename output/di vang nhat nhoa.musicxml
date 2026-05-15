@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="P8602e3329a8127e4f04ee9d4b6013d9a">
+    <score-part id="P1449cfaf66a7a547f173850bdd2b2a82">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I8e9914aa6eebf04dce15adb927842048">
+      <score-instrument id="I2a15c30a3e072a7db58e593dcaa17223">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I8e9914aa6eebf04dce15adb927842048">
+      <midi-instrument id="I2a15c30a3e072a7db58e593dcaa17223">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="P8602e3329a8127e4f04ee9d4b6013d9a">
+  <part id="P1449cfaf66a7a547f173850bdd2b2a82">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -43,6 +43,20 @@
           <beat-type>4</beat-type>
         </time>
       </attributes>
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">A | Intro:  [ </rehearsal>
+        </direction-type>
+      </direction>
+      <direction>
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="120" />
+      </direction>
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -620,54 +634,44 @@
       </harmony>
       <note>
         <rest />
-        <duration>13440</duration>
+        <duration>20160</duration>
         <type>half</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-          <normal-type>half</normal-type>
-        </time-modification>
-        <notations><tuplet number="1" type="start" bracket="yes" /></notations></note>
+      </note>
       <harmony>
         <root>
           <root-step>G</root-step>
           <root-alter>1</root-alter>
         </root>
         <kind>dominant</kind>
-        <offset sound="yes">0</offset>
       </harmony>
       <note>
         <rest />
-        <duration>13440</duration>
+        <duration>20160</duration>
         <type>half</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-          <normal-type>half</normal-type>
-        </time-modification>
-        </note>
+      </note>
+    </measure>
+    
+    <measure implicit="no" number="31">
       <harmony>
         <root>
           <root-step>C</root-step>
           <root-alter>1</root-alter>
         </root>
         <kind>minor</kind>
-        <offset sound="yes">0</offset>
       </harmony>
       <note>
-        <rest />
-        <duration>13440</duration>
-        <type>half</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-          <normal-type>half</normal-type>
-        </time-modification>
-        <notations><tuplet number="1" type="stop" /></notations></note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
     </measure>
     
-    <measure implicit="no" number="31">
+    <measure implicit="no" number="32">
       <print new-system="yes" />
+      <direction>
+        <direction-type>
+          <rehearsal halign="center" valign="middle">B | Musical interlude: [ </rehearsal>
+        </direction-type>
+      </direction>
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -685,38 +689,6 @@
           <root-alter>1</root-alter>
         </root>
         <kind>dominant</kind>
-      </harmony>
-      <note>
-        <rest />
-        <duration>20160</duration>
-        <type>half</type>
-      </note>
-    </measure>
-    
-    <measure implicit="no" number="32">
-      <harmony>
-        <root>
-          <root-step>C</root-step>
-          <root-alter>1</root-alter>
-        </root>
-        <kind>minor</kind>
-      </harmony>
-      <note>
-        <rest />
-        <duration>20160</duration>
-        <type>half</type>
-      </note>
-      <harmony>
-        <root>
-          <root-step>G</root-step>
-          <root-alter>1</root-alter>
-        </root>
-        <kind>dominant</kind>
-        <inversion>5</inversion>
-        <bass>
-          <bass-step>C</bass-step>
-          <bass-alter>0</bass-alter>
-        </bass>
       </harmony>
       <note>
         <rest />
@@ -728,9 +700,10 @@
     <measure implicit="no" number="33">
       <harmony>
         <root>
-          <root-step>A</root-step>
+          <root-step>C</root-step>
+          <root-alter>1</root-alter>
         </root>
-        <kind text="M7" use-symbols="yes">major-seventh</kind>
+        <kind>minor</kind>
       </harmony>
       <note>
         <rest />
@@ -743,6 +716,11 @@
           <root-alter>1</root-alter>
         </root>
         <kind>dominant</kind>
+        <inversion>5</inversion>
+        <bass>
+          <bass-step>C</bass-step>
+          <bass-alter>0</bass-alter>
+        </bass>
       </harmony>
       <note>
         <rest />
@@ -754,10 +732,9 @@
     <measure implicit="no" number="34">
       <harmony>
         <root>
-          <root-step>C</root-step>
-          <root-alter>1</root-alter>
+          <root-step>A</root-step>
         </root>
-        <kind>minor</kind>
+        <kind text="M7" use-symbols="yes">major-seventh</kind>
       </harmony>
       <note>
         <rest />
@@ -770,11 +747,6 @@
           <root-alter>1</root-alter>
         </root>
         <kind>dominant</kind>
-        <inversion>5</inversion>
-        <bass>
-          <bass-step>C</bass-step>
-          <bass-alter>0</bass-alter>
-        </bass>
       </harmony>
       <note>
         <rest />
@@ -786,6 +758,38 @@
     <measure implicit="no" number="35">
       <harmony>
         <root>
+          <root-step>C</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <type>half</type>
+      </note>
+      <harmony>
+        <root>
+          <root-step>G</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+        <inversion>5</inversion>
+        <bass>
+          <bass-step>C</bass-step>
+          <bass-alter>0</bass-alter>
+        </bass>
+      </harmony>
+      <note>
+        <rest />
+        <duration>20160</duration>
+        <type>half</type>
+      </note>
+    </measure>
+    
+    <measure implicit="no" number="36">
+      <harmony>
+        <root>
           <root-step>A</root-step>
         </root>
         <kind text="M7" use-symbols="yes">major-seventh</kind>
@@ -809,7 +813,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="36">
+    <measure implicit="no" number="37">
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -841,7 +845,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="37">
+    <measure implicit="no" number="38">
       <harmony>
         <root>
           <root-step>A</root-step>
@@ -867,7 +871,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="38">
+    <measure implicit="no" number="39">
       <harmony>
         <root>
           <root-step>C</root-step>
