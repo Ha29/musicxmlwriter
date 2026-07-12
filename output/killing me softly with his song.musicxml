@@ -7,7 +7,7 @@
   <identification>
     <creator type="composer">S Ha</creator>
     <encoding>
-      <encoding-date>2026-07-10</encoding-date>
+      <encoding-date>2026-07-11</encoding-date>
       <software>music21 v.9.9.1</software>
     </encoding>
   </identification>
@@ -18,21 +18,21 @@
     </scaling>
   </defaults>
   <part-list>
-    <score-part id="Pc7583eba18370ff6014ca1be4b469401">
+    <score-part id="Pe562c20d784f1008d642c39459f884b1">
       <part-name>Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I789c42fae38dbf156f1dce5c77795c16">
+      <score-instrument id="Icf673c546fe54df08f88057ceec48a6b">
         <instrument-name>Piano</instrument-name>
         <instrument-abbreviation>Pno</instrument-abbreviation>
       </score-instrument>
-      <midi-instrument id="I789c42fae38dbf156f1dce5c77795c16">
+      <midi-instrument id="Icf673c546fe54df08f88057ceec48a6b">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
       </midi-instrument>
     </score-part>
   </part-list>
   
-  <part id="Pc7583eba18370ff6014ca1be4b469401">
+  <part id="Pe562c20d784f1008d642c39459f884b1">
     
     <measure implicit="no" number="1">
       <print new-system="yes" />
@@ -161,6 +161,7 @@
     </measure>
     
     <measure implicit="no" number="9">
+      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -223,7 +224,12 @@
         <root>
           <root-step>A</root-step>
         </root>
-        <kind>dominant</kind>
+        <kind>major</kind>
+        <inversion>4</inversion>
+        <bass>
+          <bass-step>B</bass-step>
+          <bass-alter>0</bass-alter>
+        </bass>
       </harmony>
       <note>
         <rest measure="yes" />
@@ -232,21 +238,14 @@
     </measure>
     
     <measure implicit="no" number="14">
-      <print new-system="yes" />
-      <direction>
-        <direction-type>
-          <rehearsal halign="center" valign="middle">B | Interlude (piano improv):</rehearsal>
-        </direction-type>
-      </direction>
       <harmony>
         <root>
-          <root-step>C</root-step>
-          <root-alter>0</root-alter>
+          <root-step>A</root-step>
         </root>
         <kind>major</kind>
         <inversion>2</inversion>
         <bass>
-          <bass-step>G</bass-step>
+          <bass-step>E</bass-step>
         </bass>
       </harmony>
       <note>
@@ -256,27 +255,10 @@
     </measure>
     
     <measure implicit="no" number="15">
-      <harmony>
-        <root>
-          <root-step>C</root-step>
-        </root>
-        <kind>major</kind>
-        <inversion>2</inversion>
-        <bass>
-          <bass-step>G</bass-step>
-        </bass>
-      </harmony>
-      <note>
-        <rest measure="yes" />
-        <duration>40320</duration>
-      </note>
-    </measure>
-    
-    <measure implicit="no" number="16">
       <print new-system="yes" />
       <direction>
         <direction-type>
-          <rehearsal halign="center" valign="middle">C | Verse 1 (ballad style):</rehearsal>
+          <rehearsal halign="center" valign="middle">B | Verse 1 (ballad style):</rehearsal>
         </direction-type>
       </direction>
       <harmony>
@@ -291,10 +273,23 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="17">
+    <measure implicit="no" number="16">
       <harmony>
         <root>
           <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    
+    <measure implicit="no" number="17">
+      <harmony>
+        <root>
+          <root-step>C</root-step>
         </root>
         <kind>major</kind>
       </harmony>
@@ -307,7 +302,7 @@
     <measure implicit="no" number="18">
       <harmony>
         <root>
-          <root-step>C</root-step>
+          <root-step>F</root-step>
         </root>
         <kind>major</kind>
       </harmony>
@@ -320,19 +315,6 @@
     <measure implicit="no" number="19">
       <harmony>
         <root>
-          <root-step>F</root-step>
-        </root>
-        <kind>major</kind>
-      </harmony>
-      <note>
-        <rest measure="yes" />
-        <duration>40320</duration>
-      </note>
-    </measure>
-    
-    <measure implicit="no" number="20">
-      <harmony>
-        <root>
           <root-step>D</root-step>
         </root>
         <kind>minor</kind>
@@ -343,12 +325,25 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="21">
+    <measure implicit="no" number="20">
       <harmony>
         <root>
           <root-step>G</root-step>
         </root>
         <kind>major</kind>
+      </harmony>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    
+    <measure implicit="no" number="21">
+      <harmony>
+        <root>
+          <root-step>A</root-step>
+        </root>
+        <kind>minor</kind>
       </harmony>
       <note>
         <rest measure="yes" />
@@ -370,9 +365,10 @@
     </measure>
     
     <measure implicit="no" number="23">
+      <print new-system="yes" />
       <harmony>
         <root>
-          <root-step>A</root-step>
+          <root-step>D</root-step>
         </root>
         <kind>minor</kind>
       </harmony>
@@ -385,19 +381,6 @@
     <measure implicit="no" number="24">
       <harmony>
         <root>
-          <root-step>D</root-step>
-        </root>
-        <kind>minor</kind>
-      </harmony>
-      <note>
-        <rest measure="yes" />
-        <duration>40320</duration>
-      </note>
-    </measure>
-    
-    <measure implicit="no" number="25">
-      <harmony>
-        <root>
           <root-step>G</root-step>
         </root>
         <kind>major</kind>
@@ -408,7 +391,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="26">
+    <measure implicit="no" number="25">
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -421,7 +404,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="27">
+    <measure implicit="no" number="26">
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -462,11 +445,11 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="28">
+    <measure implicit="no" number="27">
       <print new-system="yes" />
       <direction>
         <direction-type>
-          <rehearsal halign="center" valign="middle">D | Chorus (ballad style):</rehearsal>
+          <rehearsal halign="center" valign="middle">C | Chorus (ballad style):</rehearsal>
         </direction-type>
       </direction>
       <harmony>
@@ -481,7 +464,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="29">
+    <measure implicit="no" number="28">
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -494,10 +477,23 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="30">
+    <measure implicit="no" number="29">
       <harmony>
         <root>
           <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    
+    <measure implicit="no" number="30">
+      <harmony>
+        <root>
+          <root-step>C</root-step>
         </root>
         <kind>major</kind>
       </harmony>
@@ -510,19 +506,6 @@
     <measure implicit="no" number="31">
       <harmony>
         <root>
-          <root-step>C</root-step>
-        </root>
-        <kind>major</kind>
-      </harmony>
-      <note>
-        <rest measure="yes" />
-        <duration>40320</duration>
-      </note>
-    </measure>
-    
-    <measure implicit="no" number="32">
-      <harmony>
-        <root>
           <root-step>A</root-step>
         </root>
         <kind>minor</kind>
@@ -533,7 +516,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="33">
+    <measure implicit="no" number="32">
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -546,7 +529,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="34">
+    <measure implicit="no" number="33">
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -559,7 +542,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="35">
+    <measure implicit="no" number="34">
       <harmony>
         <root>
           <root-step>F</root-step>
@@ -572,7 +555,8 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="36">
+    <measure implicit="no" number="35">
+      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -585,10 +569,24 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="37">
+    <measure implicit="no" number="36">
       <harmony>
         <root>
           <root-step>F</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    
+    <measure implicit="no" number="37">
+      <harmony>
+        <root>
+          <root-step>B</root-step>
+          <root-alter>-1</root-alter>
         </root>
         <kind>major</kind>
       </harmony>
@@ -615,20 +613,6 @@
     <measure implicit="no" number="39">
       <harmony>
         <root>
-          <root-step>B</root-step>
-          <root-alter>-1</root-alter>
-        </root>
-        <kind>major</kind>
-      </harmony>
-      <note>
-        <rest measure="yes" />
-        <duration>40320</duration>
-      </note>
-    </measure>
-    
-    <measure implicit="no" number="40">
-      <harmony>
-        <root>
           <root-step>A</root-step>
         </root>
         <kind>dominant</kind>
@@ -639,11 +623,11 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="41">
+    <measure implicit="no" number="40">
       <print new-system="yes" />
       <direction>
         <direction-type>
-          <rehearsal halign="center" valign="middle">E | Verse 2 (ballad style):</rehearsal>
+          <rehearsal halign="center" valign="middle">D | Verse 2 (ballad style):</rehearsal>
         </direction-type>
       </direction>
       <harmony>
@@ -658,7 +642,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="42">
+    <measure implicit="no" number="41">
       <harmony>
         <root>
           <root-step>G</root-step>
@@ -671,7 +655,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="43">
+    <measure implicit="no" number="42">
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -684,7 +668,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="44">
+    <measure implicit="no" number="43">
       <harmony>
         <root>
           <root-step>F</root-step>
@@ -697,7 +681,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="45">
+    <measure implicit="no" number="44">
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -710,12 +694,25 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="46">
+    <measure implicit="no" number="45">
       <harmony>
         <root>
           <root-step>G</root-step>
         </root>
         <kind>major</kind>
+      </harmony>
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    
+    <measure implicit="no" number="46">
+      <harmony>
+        <root>
+          <root-step>A</root-step>
+        </root>
+        <kind>minor</kind>
       </harmony>
       <note>
         <rest measure="yes" />
@@ -737,9 +734,10 @@
     </measure>
     
     <measure implicit="no" number="48">
+      <print new-system="yes" />
       <harmony>
         <root>
-          <root-step>A</root-step>
+          <root-step>D</root-step>
         </root>
         <kind>minor</kind>
       </harmony>
@@ -752,19 +750,6 @@
     <measure implicit="no" number="49">
       <harmony>
         <root>
-          <root-step>D</root-step>
-        </root>
-        <kind>minor</kind>
-      </harmony>
-      <note>
-        <rest measure="yes" />
-        <duration>40320</duration>
-      </note>
-    </measure>
-    
-    <measure implicit="no" number="50">
-      <harmony>
-        <root>
           <root-step>G</root-step>
         </root>
         <kind>major</kind>
@@ -775,7 +760,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="51">
+    <measure implicit="no" number="50">
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -788,7 +773,7 @@
       </note>
     </measure>
     
-    <measure implicit="no" number="52">
+    <measure implicit="no" number="51">
       <harmony>
         <root>
           <root-step>E</root-step>
@@ -829,11 +814,18 @@
       </note>
     </measure>
     
+    <measure implicit="no" number="52">
+      <note>
+        <rest measure="yes" />
+        <duration>40320</duration>
+      </note>
+    </measure>
+    
     <measure implicit="no" number="53">
       <print new-system="yes" />
       <direction>
         <direction-type>
-          <rehearsal halign="center" valign="middle">F | Chorus (fugees funk):</rehearsal>
+          <rehearsal halign="center" valign="middle">E | Chorus (fugees funk):</rehearsal>
         </direction-type>
       </direction>
       <harmony>
@@ -940,6 +932,7 @@
     </measure>
     
     <measure implicit="no" number="61">
+      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>C</root-step>
@@ -1010,7 +1003,7 @@
       <print new-system="yes" />
       <direction>
         <direction-type>
-          <rehearsal halign="center" valign="middle">G | Verse 3 (piano solo with drums on ride accents):</rehearsal>
+          <rehearsal halign="center" valign="middle">F | Verse 3 (piano solo with drums on ride accents):</rehearsal>
         </direction-type>
       </direction>
       <harmony>
@@ -1117,6 +1110,7 @@
     </measure>
     
     <measure implicit="no" number="74">
+      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>D</root-step>
@@ -1200,7 +1194,7 @@
       <print new-system="yes" />
       <direction>
         <direction-type>
-          <rehearsal halign="center" valign="middle">H | Chorus (ballad style):</rehearsal>
+          <rehearsal halign="center" valign="middle">G | Chorus (ballad style):</rehearsal>
         </direction-type>
       </direction>
       <harmony>
@@ -1293,6 +1287,7 @@
     </measure>
     
     <measure implicit="no" number="84">
+      <print new-system="yes" />
       <harmony>
         <root>
           <root-step>F</root-step>
